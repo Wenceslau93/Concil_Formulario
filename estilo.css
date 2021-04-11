@@ -1,0 +1,381 @@
+﻿* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+    background-color: #fff;
+    font-size: 16px;
+    color: #565656;
+    width:100%;
+    padding:0;
+    margin-left:0;
+    margin-right:0;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-weight: 300;
+}
+
+img{
+    -moz-user-select:none;
+    -webkit-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    -webkit-user-drag:none;
+    user-drag:none;
+}
+
+/*--------------------------------------- Barra de Navegação ------------------------*/
+
+/*-- Espaçamento do top --*/
+
+
+.navbar{
+
+	padding: 20px;
+
+}
+
+.navbar-right{
+
+	padding-right: 10px;
+
+}
+
+/*-- Espaçamento do Logo --*/
+
+.navbar-brand{
+
+	margin-top: -22px;
+
+}
+
+
+/*-- Fonte e cor da fonte do cabeçalho --*/
+
+.navbar-light .navbar-nav>li>a {
+
+	font-size: 18px;
+	color: #086A87;
+}
+
+/*-- Efeito ao passar o mouse--*/
+
+.navbar-light .navbar-nav>li>a:hover{
+
+	color: #00BFFF;
+	background: #e6ffff;
+	text-decoration: underline;
+}
+
+/*-- Serviços do cabeçalho--*/
+
+.dropdown-menu>li>a:hover{
+	
+	background: #87CEEB;
+}
+
+/*-- Botão do Menu--*/
+
+.navbar-toggle{
+	
+	border: 1px solid black;
+	background: #4682B4;
+	position: relative;
+    float: right;
+}
+
+/*-- Botão do Menu--*/
+
+.icon-bar{
+
+	background: black;
+}
+
+/*--------------------------------------- Capa Principal ------------------------*/
+
+/*-- Capa Principal--*/
+
+.img-principal{
+
+	background: url(imagens/home.jpg) no-repeat center top fixed;
+    /*background-size*/
+    -moz-background-size:cover;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    -o-background-size:cover;
+    /*    -webkit-background-size: length_x length_y;*/
+    background-size: cover;
+    width:100%;
+    overflow: hidden;
+
+}
+
+.overlay-stratup-half {
+
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
+
+}
+
+#Capa-e-formulario{
+
+	padding-top: 50px;
+	float: left;
+
+}
+
+.capa-principal{
+
+	padding-top: 50px;
+	padding-right: -200px;
+
+}
+
+.capa-principal h1{
+
+	color: white;
+	font-size: 55px;
+}
+
+.capa-principal h2{
+
+	color: white;
+	font-size: 38px;
+
+}
+
+.capa-principal h3{
+
+	color: #ffffff;
+	font-size: 25px;
+	padding-top: 10px;
+
+}
+
+.capa-principal h4{
+
+	color: #ffffff;
+	font-size: 25px;
+
+}
+
+
+@media (max-width: 800px) {
+
+	.overlay-stratup-half {
+
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+
+	}
+
+	.capa-principal h3{
+
+	color: #ffffff;
+	font-size: 30px;
+	padding-top: 80px;
+
+	}
+
+}
+
+
+/*--------------------------------------- Serviços------------------------*/
+
+/*-- Serviços ---*/
+
+#servicos{
+
+	background: white;
+	padding-top: 300px;
+
+}
+
+
+.concil{
+
+	padding-top: 350px;
+}
+
+.borda {
+
+	border: 1px solid #04B4AE;
+	background: #04B4AE;
+	width: 100%;
+}
+
+.borda h3{
+
+	color: white;
+}
+
+@media (max-width: 800px) {
+
+	
+	#servicos{
+
+	padding-top: 650px;
+
+	}
+
+	.concil{
+
+		padding-top: 650px;
+
+	}
+
+}
+
+.concil h3{
+
+	color: white;
+	font-family: Arial;
+	padding-bottom: 5px;
+
+}
+
+.concil-inf{
+
+	padding-top: 10px;
+
+}
+
+
+.concil-inf h2{
+
+	color: black;
+	line-height: 1.8;
+
+}
+
+.concil-inf h3{
+
+	color: black;
+	line-height: 1.3;
+	text-align: center;
+}
+
+#servicos2{
+
+	background: white;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+}
+
+.servicos2-top{
+
+	padding-top: 50px;
+
+}
+
+.solucao{
+
+	margin: 0px auto;
+	height: 600px;
+}
+
+.dashboard{
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.dashboard-top{
+
+	padding-top: 50px;
+
+}
+
+.carousel-inner img{
+
+	width: 100%;
+}
+
+@media (max-width: 800px) {
+
+	.dashboard-top{
+
+		display:none;
+
+	}
+
+	.dashboard{
+
+		display:none;
+
+	}
+
+	.concil-inf h3{
+
+	text-align: left;
+	margin-left: 2px;
+}
+
+
+}
+
+.botao-inicio{
+
+		padding-bottom: 50px;
+}
+
+.btn{
+
+	width: 100%;
+
+}
+
+
+
+
+/*--------------------------------------- Rodapé------------------------*/
+
+/*-- Cor do Rodapé--*/
+
+footer{
+	background: #286090;
+	padding: 20px 0px 0px 0px;
+}
+
+/*-- Fonte do Rodapé h4--*/
+
+#rodape{
+
+	color: #FFFAFA;
+	font-size: 15px;
+	padding: 20px 0px 10px;
+}
+
+.logo-rodape{
+
+	padding-top: 10px;
+}
+
+.concilcard-rodape{
+
+	padding: 30px auto;
+}
+
+.endereco-rodape{
+
+	padding-left: 35px;
+	padding-bottom: 20px;
+}
+
+/*-- Fonte das letras do Rodapé--*/
+
+#rodape .nav a{
+	font-size: 12px;
+	padding-left: 80px;
+	text-transform: uppercase;
+	background: none;
+}
+
+/*-- Fonte do Rodapé --*/
+
+.nav>li>a{
+	color: white;
+}
